@@ -1,1 +1,130 @@
-/* styles  */
+/* generic styling  */
+:root{
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: 'Oxygen', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{ 
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+a{
+    color: var(--magenta);
+}
+
+a:hover{
+    color: var(--hotmag);
+    text-decoration: none;
+}
+ /* navbar  */
+nav{
+    font-family: var(--mono);
+    font-size: 80%;
+    padding: 1rem;
+}
+
+nav h1 a{
+    font-family: var(--sans);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav [class*="fa-"]{
+    font-size: 150%;
+    color: var(--aqua);
+}
+
+nav h1 [class*="fa-"]{
+    font-size: 100%;
+    color: var(--aqua);
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover, 
+nav [class*="fa-"]:hover{
+    color: var(--magenta);
+}
+
+
+ /* intro styling  */
+ #intro{
+    padding-bottom: 10rem;
+ }
+
+ #intro p{
+    font-size: 1rem;
+    line-height: 1.5;
+ }
+
+ #intro .name{
+    font-family: var(--mono);
+ }
+
+ #intro span{
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display: block;
+ }
+
+ #intro h2{
+    font-size: 4rem;
+    font-weight: normal;
+ }
+
+ #contact{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+ }
+
+ #contact p:last-child{
+    margin-top: 3rem;
+ }
