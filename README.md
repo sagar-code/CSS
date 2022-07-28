@@ -1,2 +1,10 @@
-# CSS
-Sites, Snippets and Building Blocks build using CSS and JS
+# Cascading Style Sheets
+Website, Games and Fronend Snippets build using CSS.
+
+### 1. [Portfolio Website](https://github.com/sagar-code/CSS/tree/master/Portfolio)
+
+___
+
+## Projects Preview
+#### 1. Portfolio Website
+![Portfolio Preview](https://github.com/sagar-code/CSS/Portfolio/images/portfolio_preview.png "Portfolio Preiview")
