@@ -7,4 +7,4 @@ ___
 
 ## Projects Preview
 #### 1. Portfolio Website
-![Portfolio Preview](https://github.com/sagar-code/CSS/blob/master/Portfolio/images/portfolio_preview.png"Portfolio Preiview")
+![Portfolio Preview](https://github.com/sagar-code/CSS/blob/master/Portfolio/images/portfolio_preview.png "Portfolio Preiview")
