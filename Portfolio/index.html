@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagar Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8142082953.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="responsive.css">
+    <title>Sagar's Portfolio Website</title>
 </head>
 <body>
     <nav>
@@ -41,7 +44,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">Resume</a>
+                <a href="#" class="button">Resume</a>
             </li>
         </ul>
     </nav>
@@ -51,7 +54,7 @@
             Hi, my name is <span>Sagar Budhathoki.</span> 
         </p>
         <h2>
-            I develop webapps, mobile apps and softwares.
+            I develop web &amp; mobile applications.
         </h2>
         <p>
             I'm a developer specializing in HTML, CSS, Javascript, React, Node, MongoDB, SQL, Python, etc.
@@ -61,14 +64,49 @@
         </p>
     </section>
 
-    <section id="contact">
-        <h2>Contact me</h2>
+    <div class="gradient"></div>
+
+    <div class="section-plum">
+        <section id="contact">
+            <h2>Contact me</h2>
+            <p>
+                I'm always interested in hearing about new technical opportunities, instruction, and developing software.
+            </p>
+            <p>
+                <a href="mailto:sagarfmt@gmail.com" class="button">Email me</a>
+            </p>
+        </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <footer>
+        <h2>Sagar Budhathoki &middot; Developer</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/sagar-code" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span> 
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.github.com/sagar-code" target="_blank">
+                    <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:sagarfmt@gmail.com">
+                    <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
         <p>
-            I'm always interested in hearing about new technical opportunities, instruction, and developing software.
+            <small>
+                &copy; 2022 Sagar Budhathoki. All right reserved.
+            </small>
         </p>
-        <p>
-            <a href="mailto:sagarfmt@gmail.com">Email me</a>
-        </p>
-    </section>
+    </footer>
 </body>
 </html>

@@ -43,6 +43,17 @@ a:hover{
     color: var(--hotmag);
     text-decoration: none;
 }
+
+.section-plum{
+    background-color: var(--plum);
+}
+
+.gradient{
+    background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+    height: 2px;
+}
+
+
  /* navbar  */
 nav{
     font-family: var(--mono);
@@ -91,10 +102,26 @@ nav [class*="fa-"]:hover{
     color: var(--magenta);
 }
 
+.button{
+    background-color: var(--magenta);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: var(--mono);
+    text-decoration: none;
+}
+
+.button:hover{
+    color: var(--white);
+    background-color: var(--hotmag);
+}
+
 
  /* intro styling  */
  #intro{
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
  }
 
  #intro p{
@@ -118,6 +145,8 @@ nav [class*="fa-"]:hover{
     font-weight: normal;
  }
 
+
+ /* contact  */
  #contact{
     width: 400px;
     text-align: center;
@@ -127,4 +156,22 @@ nav [class*="fa-"]:hover{
 
  #contact p:last-child{
     margin-top: 3rem;
+ }
+
+
+ /* footer  */
+ footer{
+    padding: 4rem 0;
+    text-align: center;
+ }
+
+ footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 3rem;
  }
